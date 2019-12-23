@@ -1,24 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Main from './components/Main';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
+import Contact from './components/Contact';
+import Hounds from './components/Hounds';
+import Navigation from './components/Nav';
+import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <React.Fragment>
+        <Container fluid>
+        <Router>
+        <Navigation/>
+          <Switch>
+            <Route exact path="/" component={Main}/>
+            <Route path="/portfolio" component={Portfolio}/>
+   <Route path="/about" component={About}/>
+  <Route path="/contact" component={Contact}/>
+   <Route path="/hounds" component={Hounds}/>
+           
+          </Switch>
+        </Router>
+        </Container>
+      </React.Fragment>
+      
     </div>
   );
 }
