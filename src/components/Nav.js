@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/green_logo.png';
 import Nav from 'react-bootstrap/Nav';
 import styled from 'styled-components';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 
 const NavStyle = styled.div `
@@ -12,6 +13,8 @@ color: #ffffff;
 font-family: FrankRuhlLibre-Regular;
 font-size: 18px;
 letter-spacing: 1px;
+padding-left: 9px;
+padding-right: 9px;
 }
 
 .navbar-brand {
@@ -53,7 +56,7 @@ margin-top: -24px;
 
 .navbar .word {
 
-font-size: 11px;
+font-size: 12px;
 
 }
 
@@ -61,13 +64,13 @@ font-size: 11px;
 
  @media (max-width: 575.98px) { 
   .navbar-brand img {
-      width:32px;
-        height:23px;
+      width:38px;
+        height:29px;
 }
 
 .navbar .word {
 
-font-size: 8px;
+font-size: 12px;
 
 }
 
@@ -91,11 +94,11 @@ const Navigation = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-    <Nav.Link className="word" href="#main">home</Nav.Link>
-      <Nav.Link className="word" href="#features">about</Nav.Link>
-      <Nav.Link className="word" href="#pricing">portfolio</Nav.Link>
-      <Nav.Link className="word" href="#pricing">the hounds</Nav.Link>
-      <Nav.Link className="word" href="#pricing">contact</Nav.Link>
+    <NavLink className="word" smooth to="/#home">home</NavLink>
+      <NavLink className="word" smooth to="/#philosophy">about</NavLink>
+      <NavLink className="word" smooth to="/#portfolio">portfolio</NavLink>
+      <NavLink className="word" smooth to="/#teams">the hounds</NavLink>
+      <NavLink className="word" smooth to="/#contact">contact</NavLink>
 
     </Nav>
 

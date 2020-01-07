@@ -4,6 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Landing from './Landing';
 import Philopsophy from './Philosophy';
+import Portfolio from './Portfolio';
+import Testimonies from './Testimonies';
+import Teams from './Teams';
+import Contact from './Contact'
+
 
 class Main extends Component {
     state = {  }
@@ -11,8 +16,24 @@ class Main extends Component {
         
         return ( 
             <div>
+                <div id="home">
 <Landing/>
+</div>
+<div id="philosophy">
 <Philopsophy/>
+</div>
+<div id="portfolio">
+<Portfolio/>
+</div>
+<div id="testimonies">
+<Testimonies/>
+</div>
+<div id="teams">
+<Teams/>
+</div>
+<div id="contact">
+<Contact/>
+</div>
 </div> 
          );
     }
