@@ -144,22 +144,28 @@ const Portfolio = () => {
                 <Row className="first-row">
                     
     <Col xs={10} sm={10} md={3} lg={3} xl={3}>  <div className="box">
-          <Image fluid src={pollak} alt="pollak" className="picture"/>
+          <a href="#/pollak">
+              <Image fluid src={pollak} alt="pollak" className="picture"/>
           <div className="overlay">
           <p className="title">VCU Pollak Society</p>
           </div>
+          </a>
         </div></Col>
     <Col xs={10} sm={10} md={3} lg={3} xl={3}><div className="box">
+    <a href="#/yoga">
           <Image fluid src={steveyoga} alt="steve" className="picture"/>
           <div className="overlay">
           <p className="title">Introducing Patiyogi Steve</p>
           </div>
+          </a>
         </div></Col>
     <Col xs={10} sm={10} md={3} lg={3} xl={3}><div className="box">
+        <a href="#/westrock">
           <Image fluid src={westrock} alt="westrock" className="picture"/>
           <div className="overlay">
           <p className="title">Westrock Coffee Television</p>
           </div>
+          </a>
         </div></Col>
         
   </Row>
@@ -167,22 +173,28 @@ const Portfolio = () => {
   <Row className="second-row">
                     
                     <Col xs={10} sm={10} md={3} lg={3} xl={3}>  <div className="box">
+                        <a href="#/soundview">
                           <Image fluid src={soundview} alt="soundview" className="picture"/>
                           <div className="overlay">
                           <p className="title">The Soundview Project</p>
                           </div>
+                          </a>
                         </div></Col>
                     <Col xs={10} sm={10} md={3} lg={3} xl={3}><div className="box">
+                        <a href="#/eagle">
                           <Image fluid src={eagle} alt="eagle bay" className="picture"/>
                           <div className="overlay">
                           <p className="title">Eagle Bay Hardscapes</p>
                           </div>
+                          </a>
                         </div></Col>
                     <Col xs={10} sm={10} md={3} lg={3} xl={3}><div className="box">
+                        <a href="#/better">
                           <Image fluid src={better} alt="better med" className="picture"/>
                           <div className="overlay">
                           <p className="title">Better Med</p>
                           </div>
+                          </a>
                         </div></Col>
                         
                   </Row>

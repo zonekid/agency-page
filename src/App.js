@@ -12,6 +12,10 @@ import Philosophy from './components/Philosophy';
 import Teams from './components/Teams';
 import Pollak from './components/Pollak';
 import Eagle from './components/Eagle';
+import Soundview from './components/Soundview';
+import Yoga from './components/Yoga';
+import Better from './components/Better';
+import Westrock from './components/Westrock';
 import {Nomatch} from './components/Nomatch';
 import ScrollToTop from './components/Scroll';
 
@@ -34,6 +38,10 @@ function App() {
    <Route path="/team" component={Teams}/>
    <Route path="/pollak" component={Pollak}/>
    <Route path="/eagle" component={Eagle}/>
+   <Route path="/soundview" component={Soundview}/>
+   <Route path="/yoga" component={Yoga}/>
+   <Route path="/better" component={Better}/>
+   <Route path="/westrock" component={Westrock}/>
    <Route component={Nomatch}/>         
           </Switch>
           </ScrollToTop>

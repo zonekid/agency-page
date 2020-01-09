@@ -14,7 +14,7 @@ import pollak3 from  '../assets/Pollak-3.jpg';
 import pollak4 from  '../assets/Pollak-4.jpg';
 import sound_bieber from  '../assets/soundview_bieber.jpg';
 import sound_class from  '../assets/soundview_class.jpg';
-import soundv_class2 from  '../assets/soundview_class2.jpg';
+import sound_class2 from  '../assets/soundview_class2.jpg';
 import sound_guitar from  '../assets/soundview_guitar.jpg';
 import sound_performance from  '../assets/soundview_performance.jpg';
 import sound_raise from  '../assets/soundview_raise.jpg';
@@ -96,7 +96,7 @@ background-color: #000000;
 
 `
 
-const Pollak = () => {
+const Soundview = () => {
     return ( 
         <Deep>
             <Row className="first-row">
@@ -105,7 +105,7 @@ const Pollak = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 pic"
-      src={pollak1}
+      src={sound_bieber}
       alt="First slide"
     />
   
@@ -113,7 +113,7 @@ const Pollak = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 pic"
-      src={pollak2}
+      src={sound_class}
       alt="Second slide"
     />
 
@@ -122,7 +122,7 @@ const Pollak = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 pic"
-      src={pollak3}
+      src={sound_class2}
       alt="Third slide"
     />
 
@@ -131,8 +131,26 @@ const Pollak = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 pic"
-      src={pollak4}
+      src={sound_guitar}
       alt="Fourth slide"
+    />
+
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 pic"
+      src={sound_performance}
+      alt="Fifth slide"
+    />
+
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 pic"
+      src={sound_raise}
+      alt="Sixth slide"
     />
 
 
@@ -142,21 +160,21 @@ const Pollak = () => {
             </Row>
        <Row className="second-row">
            <Col className="information" xl={{offset: 2, span:6}}>
-           <h3 className="title">VCU POLLAK SOCIETY</h3>
+           <h3 className="title">THE SOUNDVIEW PROJECT</h3>
            <p className="para">
-           The VCU Arts School is ranked the #1 public arts and design program in the country. So, we were humbled to be asked to create a mailing system for their giving membership, Pollack Society. We designed a flexible and elegant (and affordable) color-coded system with a die-cut envelope from which the information cards are pulled. The work garnered high praise from the VCU community and won an AIGA and Richmond One Show award.
+           The SoundView Project is an experiment designed to give the public a glimpse inside the songwriting and recording process by challenging a musician to expose their methods. Inside the small, street-level gallery at Release the Hounds, a musician takes up residence for 1 month and attempts to write and record 5 songs “in public.” There are no creative requirements other than the songs have to be brand new, conceived within the 8X20 foot room. The musician is also allowed to bring in friends to collaborate with throughout the project. It’s fascinating to watch and hear the songs as they develop and observe how public exposure and street energy effect the music. The deeper purpose of The SoundView Project is to raise awareness for the importance of youth music education in our city.  We will be collecting donations and lightly used instruments that will be distributed to children and music programs in need.
            </p>
            </Col>
 
            <Col className="information2" xl={{offset: 1}}>
            <p className="sub-title">Description:</p>
-           <p className="sub-info">Direct Mailer</p>
+           <p className="sub-info">Social Good</p>
            <p className="sub-title2">Role:</p>
-           <p className="sub-info2">Strategy/Design</p>
+           <p className="sub-info2">Project Management/Design</p>
            </Col>
        </Row>
 </Deep>
      );
 }
  
-export default Pollak;
+export default Soundview;

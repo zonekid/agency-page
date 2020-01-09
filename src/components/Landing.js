@@ -11,6 +11,8 @@ import Button from 'react-bootstrap/Button';
 
 const Home = styled.div `
 
+
+
 .carousel-control-prev-icon {
 margin-right: 150px;
 width:25px;
@@ -58,6 +60,7 @@ text-align: center;
 .both {
   padding: 0px;
 }
+
 
 @media (max-width: 991.98px) { 
     .btn {

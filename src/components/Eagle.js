@@ -67,10 +67,12 @@ background-color: #000000;
     padding-top:8px;
     color: #ffffff;
     font-weight:bold;
+    font-family: Poppins-Medium;
 }
 
 .sub-info2 {
     color: #ffffff;
+    font-family: Poppins-Medium;
 }
 
 @media (max-width: 575.98px) {
@@ -113,7 +115,7 @@ const Eagle = () => {
     <img
       className="d-block w-100 pic"
       src={eagle_bliss}
-      alt="Third slide"
+      alt="Second slide"
     />
 
 
@@ -131,7 +133,7 @@ const Eagle = () => {
     <img
       className="d-block w-100 pic"
       src={eagle_groundwork}
-      alt="Third slide"
+      alt="Fourth slide"
     />
 
 
@@ -140,7 +142,7 @@ const Eagle = () => {
     <img
       className="d-block w-100 pic"
       src={eagle_web}
-      alt="Third slide"
+      alt="Fifth slide"
     />
 
 

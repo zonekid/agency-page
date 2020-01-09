@@ -14,11 +14,11 @@ import pollak3 from  '../assets/Pollak-3.jpg';
 import pollak4 from  '../assets/Pollak-4.jpg';
 import sound_bieber from  '../assets/soundview_bieber.jpg';
 import sound_class from  '../assets/soundview_class.jpg';
-import soundv_class2 from  '../assets/soundview_class2.jpg';
+import sound_class2 from  '../assets/soundview_class2.jpg';
 import sound_guitar from  '../assets/soundview_guitar.jpg';
 import sound_performance from  '../assets/soundview_performance.jpg';
 import sound_raise from  '../assets/soundview_raise.jpg';
-
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 const Deep = styled.div `
 
@@ -96,61 +96,37 @@ background-color: #000000;
 
 `
 
-const Pollak = () => {
+const Better = () => {
     return ( 
         <Deep>
             <Row className="first-row">
                 <Col className="carou" xs={10} sm={10} md={8} lg={6} xl={5}>
                 <Carousel>
   <Carousel.Item>
-    <img
-      className="d-block w-100 pic"
-      src={pollak1}
-      alt="First slide"
-    />
-  
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 pic"
-      src={pollak2}
-      alt="Second slide"
-    />
 
+  <div className="d-block w-100 pic" style={{height: 'auto' }}>
+  <ResponsiveEmbed aspectRatio="16by9">
+  <iframe src="https://www.youtube.com/embed/XeyfO5vLqtw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </ResponsiveEmbed>
+</div>
 
   </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 pic"
-      src={pollak3}
-      alt="Third slide"
-    />
 
-
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 pic"
-      src={pollak4}
-      alt="Fourth slide"
-    />
-
-
-  </Carousel.Item>
+ 
 </Carousel>
                 </Col>
             </Row>
        <Row className="second-row">
            <Col className="information" xl={{offset: 2, span:6}}>
-           <h3 className="title">VCU POLLAK SOCIETY</h3>
+           <h3 className="title">BetterMed</h3>
            <p className="para">
-           The VCU Arts School is ranked the #1 public arts and design program in the country. So, we were humbled to be asked to create a mailing system for their giving membership, Pollack Society. We designed a flexible and elegant (and affordable) color-coded system with a die-cut envelope from which the information cards are pulled. The work garnered high praise from the VCU community and won an AIGA and Richmond One Show award.
+           A challenger to the market, Bettermed asked us to create a low cost but impactful television spot that makes people recognize them as the brand that has evolved urgent care.
            </p>
            </Col>
 
            <Col className="information2" xl={{offset: 1}}>
            <p className="sub-title">Description:</p>
-           <p className="sub-info">Direct Mailer</p>
+           <p className="sub-info">Video</p>
            <p className="sub-title2">Role:</p>
            <p className="sub-info2">Strategy/Design</p>
            </Col>
@@ -159,4 +135,4 @@ const Pollak = () => {
      );
 }
  
-export default Pollak;
+export default Better;

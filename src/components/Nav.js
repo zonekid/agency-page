@@ -86,7 +86,7 @@ const Navigation = () => {
 
   <NavStyle>
 <Navbar collapseOnSelect fixed="top" expand="lg" variant="dark">
-  <Navbar.Brand href="#home"><img
+  <Navbar.Brand href="/"><img
         src={logo}
         className="d-inline-block align-top"
         alt="Release The Hounds Logo"
