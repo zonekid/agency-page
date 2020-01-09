@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import Button from 'react-bootstrap/Button';
 import Crawley from  '../assets/Crawley.png';
 import Mills from  '../assets/Mills.png';
@@ -167,12 +168,17 @@ const Teams = () => {
                     </Col>
                     </Row>
                     <Row>
+                        <Col>
                         <p className="info">
                         We pride ourselves on being a truly collaborative agency. From account manager to copywriter, everyone is included in the strategic and creative development of a project. That’s right…everyone works on everything at RTH. By breaking down traditional agency silos, we utilize 100% of our collective brain power. And because of this, we create more impactful work for our clients.
                         </p>
+                        </Col>
                     </Row>
                     <Row>
-                    <Button className="touch" variant="dark" size="sm">get in touch</Button>
+                    <NavLink className="btn btn-dark touch" to="/#contact" >
+             get in touch
+</NavLink>
+                    {/* <Button href="http://localhost:3000/#/#contact"  className="touch" variant="dark" size="sm">get in touch</Button> */}
                     </Row>
                 </Team>
 

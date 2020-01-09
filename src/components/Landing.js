@@ -108,6 +108,23 @@ text-align: center;
 .sub {
   font-size:10px;
 }
+
+.second {
+  padding-left: 5px;
+}
+
+.second-2 {
+  padding-left:5px;
+}
+
+.third {
+  padding-left: 6px;
+font-size: 12px;
+}
+
+.third-2 {
+  padding-left:6px;
+}
    }
 
 `
@@ -143,8 +160,8 @@ const Landing = () => {
   <Row>
       <Col className="left both">
       
-        <h2 className="intro">A. SMITH BOWMAN</h2>
-        <p className="sub">Innovative Experiment Turned World's Best Bourbon</p>
+        <h2 className="intro second">A. SMITH BOWMAN</h2>
+        <p className="sub second-2">Innovative Experiment Turned World's Best Bourbon</p>
       
       </Col>
       <Col className="both" >
@@ -166,8 +183,8 @@ const Landing = () => {
   <Row>
       <Col className="left both">
       
-        <h2 className="intro">RICHMOND RACEWAY</h2>
-        <p className="sub">America's Premiere Short Track</p>
+        <h2 className="intro third">RICHMOND RACEWAY</h2>
+        <p className="sub third-2">America's Premiere Short Track</p>
       
       </Col>
       <Col className="both" >

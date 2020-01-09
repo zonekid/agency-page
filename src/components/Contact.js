@@ -56,8 +56,25 @@ text-align: center;
 }
 
 li {
-    color: #ffffff;
+    font-family: Poppins-Medium;
+font-size: 24px;
+color: #FFFFFF;
+letter-spacing: 1.2px;
+line-height: 28px;
 }
+
+@media (max-width: 991.98px) {
+    li {
+        font-size: 20px; 
+    }
+ }
+
+ @media (max-width: 767.98px) { 
+
+     li {
+        font-size: 18px; 
+     }
+  }
 
 
 `

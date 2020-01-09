@@ -17,7 +17,7 @@ const Work = styled.div `
 background-color: #000000;
 
 .title-works {
-    font-family: FrankRuhlLibre-Regular;
+    font-family: Poppins-Medium;
 font-size: 24px;
 color: #ffffff;
 letter-spacing: 1.2px;

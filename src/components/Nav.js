@@ -9,7 +9,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 const NavStyle = styled.div `
 
   .navbar .word {
-color: #ffffff;
+color: #d8d8d8;
 font-family: FrankRuhlLibre-Regular;
 font-size: 18px;
 letter-spacing: 1px;
@@ -56,7 +56,7 @@ margin-top: -24px;
 
 .navbar .word {
 
-font-size: 12px;
+font-size: 14px;
 
 }
 
@@ -70,7 +70,7 @@ font-size: 12px;
 
 .navbar .word {
 
-font-size: 12px;
+font-size: 14px;
 
 }
 

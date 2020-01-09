@@ -10,6 +10,8 @@ import Navigation from './components/Nav';
 import Container from 'react-bootstrap/Container';
 import Philosophy from './components/Philosophy';
 import Teams from './components/Teams';
+import Pollak from './components/Pollak';
+import Eagle from './components/Eagle';
 import {Nomatch} from './components/Nomatch';
 import ScrollToTop from './components/Scroll';
 
@@ -30,6 +32,8 @@ function App() {
    <Route path="/testimonies" component={Testimonies}/>
    <Route path="/philosophy" component={Philosophy}/>
    <Route path="/team" component={Teams}/>
+   <Route path="/pollak" component={Pollak}/>
+   <Route path="/eagle" component={Eagle}/>
    <Route component={Nomatch}/>         
           </Switch>
           </ScrollToTop>

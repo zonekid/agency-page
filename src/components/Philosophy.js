@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import steve from  '../assets/yoga_steve.jpg';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
@@ -196,8 +197,11 @@ const Philosophy = () => {
                 <div className="line"></div>
             <div className="text">
             We embrace a challenge. We disrupt convention. Our boots are polished daily, so they look good when we kick the status quo in the hoo-ha. In addition to client work, we’re all also passionate about supporting our community. In fact, we spend 30% of our time working with non-profits like the RVA Street Art Festival and our own initiative, The SoundView Project. If you love collaborating and creating great work, we want to meet you!
-             </div>
-             <Button className="touch no" variant="light" size="sm">get in touch</Button>
+             </div>  
+             {/* <Button smooth to="/#contact" renderAs={NavLink} className="touch no" variant="light" size="sm">get in touch</Button> */}
+             <NavLink className="btn btn-light touch" to="/#contact" >
+             get in touch
+</NavLink>
           </div>
         </div>
         </Yoga>
