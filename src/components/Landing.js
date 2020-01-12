@@ -154,8 +154,8 @@ const Landing = () => {
     </Row>
 
     <Carousel.Caption>
-    <Button className="landing-button"  variant="outline-light">Previous</Button>
-    <Button className="landing-button"  variant="outline-light">Next</Button>
+    {/* <Button className="landing-button"  variant="outline-light">Previous</Button>
+    <Button className="landing-button"  variant="outline-light">Next</Button> */}
      
     </Carousel.Caption>
   </Carousel.Item>
@@ -178,8 +178,8 @@ const Landing = () => {
     </Row>
 
     <Carousel.Caption>
-    <Button href="#" className="landing-button" variant="outline-light" data-slide="prev">Previous</Button>
-    <Button href="#" className="landing-button" variant="outline-light" data-slide="next">Next</Button>
+    {/* <Button href="#" className="landing-button" variant="outline-light" data-slide="prev">Previous</Button>
+    <Button href="#" className="landing-button" variant="outline-light" data-slide="next">Next</Button> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -201,8 +201,8 @@ const Landing = () => {
     </Row>
 
     <Carousel.Caption>
-    <Button variant="outline-light" className="landing-button" data-slide="prev">Previous</Button>
-    <Button variant="outline-light" className="landing-button" data-slide="next">Next</Button>
+    {/* <Button variant="outline-light" className="landing-button" data-slide="prev">Previous</Button>
+    <Button variant="outline-light" className="landing-button" data-slide="next">Next</Button> */}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

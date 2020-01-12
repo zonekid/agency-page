@@ -69,8 +69,8 @@ padding-top:150px;
     font-family:Poppins-Regular;
     font-size: 16px;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 65px;
+    margin-top: 130px;
+    margin-bottom: 135px;
 }
 
 @media (max-width: 991.98px) { 
@@ -175,10 +175,10 @@ const Teams = () => {
                         </Col>
                     </Row>
                     <Row>
-                    <NavLink className="btn btn-dark touch" to="/#contact" >
-             get in touch
+                    <NavLink className="btn btn-dark touch" smooth to="/#portfolio" >
+             view our work
 </NavLink>
-                    {/* <Button href="http://localhost:3000/#/#contact"  className="touch" variant="dark" size="sm">get in touch</Button> */}
+                  
                     </Row>
                 </Team>
 
