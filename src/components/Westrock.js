@@ -3,22 +3,9 @@ import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
-import eagle_mag from  '../assets/eagle_bay_mag.jpg';
-import eagle_bliss from  '../assets/eaglebay_bliss.jpg';
-import eagle_construction from  '../assets/eaglebay_construction.jpg';
-import eagle_groundwork from  '../assets/eaglebay_groundwork.jpg';
-import eagle_web from  '../assets/eaglebay_web.jpg';
-import pollak1 from  '../assets/Pollak-1.jpg';
-import pollak2 from  '../assets/Pollak-2.jpg';
-import pollak3 from  '../assets/Pollak-3.jpg';
-import pollak4 from  '../assets/Pollak-4.jpg';
-import sound_bieber from  '../assets/soundview_bieber.jpg';
-import sound_class from  '../assets/soundview_class.jpg';
-import sound_class2 from  '../assets/soundview_class2.jpg';
-import sound_guitar from  '../assets/soundview_guitar.jpg';
-import sound_performance from  '../assets/soundview_performance.jpg';
-import sound_raise from  '../assets/soundview_raise.jpg';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
+import './font.css';
+
 
 const Deep = styled.div `
 

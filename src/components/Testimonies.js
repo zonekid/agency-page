@@ -7,6 +7,7 @@ import fc from  '../assets/fc_logo.png';
 import rr_logo from  '../assets/rr_logo.png';
 import smith from  '../assets/smithbowman_logo.png';
 import Image from 'react-bootstrap/Image';
+import './font.css';
 
 const Test = styled.div `
 

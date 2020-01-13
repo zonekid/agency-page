@@ -4,6 +4,7 @@ import logo from '../assets/green_logo.png';
 import Nav from 'react-bootstrap/Nav';
 import styled from 'styled-components';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+import './font.css';
 
 
 const NavStyle = styled.div `
@@ -64,8 +65,8 @@ font-size: 14px;
 
  @media (max-width: 575.98px) { 
   .navbar-brand img {
-      width:38px;
-        height:29px;
+      width:42px;
+        height:33px;
 }
 
 .navbar .word {

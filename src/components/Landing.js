@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import bowmanbg from  '../assets/bowman_test.jpg';
 import racewaybg from  '../assets/raceway_test.jpg';
 import violin from  '../assets/test_violin.jpg';
+import './font.css';
 import Button from 'react-bootstrap/Button';
 
 

@@ -11,6 +11,7 @@ import pollak from  '../assets/pollak_port.jpg';
 import soundview from  '../assets/soundview_port.jpg';
 import steveyoga from  '../assets/steve_port.jpg';
 import westrock from  '../assets/westrock_port.jpg';
+import './font.css';
 
 const Work = styled.div `
 

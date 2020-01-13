@@ -9,6 +9,7 @@ import Crawley from  '../assets/Crawley.png';
 import Mills from  '../assets/Mills.png';
 import Moffitt from  '../assets/Moffitt.png';
 import Tigani from  '../assets/Tigani.png';
+import './font.css';
 
 
 const Team = styled.div `

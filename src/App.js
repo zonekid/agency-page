@@ -2,10 +2,8 @@ import React from 'react';
 import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Main from './components/Main';
 import Portfolio from './components/Portfolio';
-import About from './components/About';
 import Contact from './components/Contact';
 import Testimonies from './components/Testimonies';
-import Hounds from './components/Hounds';
 import Navigation from './components/Nav';
 import Container from 'react-bootstrap/Container';
 import Philosophy from './components/Philosophy';
@@ -30,9 +28,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Main}/>
             <Route path="/portfolio" component={Portfolio}/>
-   <Route path="/about" component={About}/>
+  
   <Route path="/contact" component={Contact}/>
-   <Route path="/hounds" component={Hounds}/>
    <Route path="/testimonies" component={Testimonies}/>
    <Route path="/philosophy" component={Philosophy}/>
    <Route path="/team" component={Teams}/>

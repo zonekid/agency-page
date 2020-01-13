@@ -6,6 +6,7 @@ import { NavHashLink as NavLink } from 'react-router-hash-link';
 import steve from  '../assets/yoga_steve.jpg';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+import './font.css';
 
 const Yoga = styled.div `
 .box {

@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import pdot from  '../assets/pink_dot.png';
 import bdot from  '../assets/blue_dot.png';
 import odot from  '../assets/orange_dot.png';
+import './font.css';
 
 const Last = styled.div `
 

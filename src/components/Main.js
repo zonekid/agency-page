@@ -8,6 +8,7 @@ import Portfolio from './Portfolio';
 import Testimonies from './Testimonies';
 import Teams from './Teams';
 import Contact from './Contact'
+import './font.css';
 
 
 class Main extends Component {
