@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b11290d8c4af7b3eaeb8c041fc434b0",
+    "revision": "7bf02724510248cb2cf40004b606b38a",
     "url": "/agency-page/index.html"
   },
   {
-    "revision": "083b67c4037b16f8e4a7",
-    "url": "/agency-page/static/css/main.5ecd60fb.chunk.css"
+    "revision": "d305e1166588b8f1abba",
+    "url": "/agency-page/static/css/main.eca160ba.chunk.css"
   },
   {
-    "revision": "86a968fb0c81c9f5a21b",
-    "url": "/agency-page/static/js/2.3f379b02.chunk.js"
+    "revision": "dd68d57f3a40e03db74a",
+    "url": "/agency-page/static/js/2.b419ed65.chunk.js"
   },
   {
     "revision": "b651d5533fc80509587379dd07cc06bd",
-    "url": "/agency-page/static/js/2.3f379b02.chunk.js.LICENSE"
+    "url": "/agency-page/static/js/2.b419ed65.chunk.js.LICENSE"
   },
   {
-    "revision": "083b67c4037b16f8e4a7",
-    "url": "/agency-page/static/js/main.61cf1015.chunk.js"
+    "revision": "d305e1166588b8f1abba",
+    "url": "/agency-page/static/js/main.59ea2bb2.chunk.js"
   },
   {
     "revision": "ebdb615d53d3e7683636",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee383d81ca77656da0a2474953be9c24",
     "url": "/agency-page/static/media/Crawley.ee383d81.png"
+  },
+  {
+    "revision": "8d3cc14fec1cb9c0203f916adab91cee",
+    "url": "/agency-page/static/media/FrankRuhlLibre-Regular.8d3cc14f.ttf"
   },
   {
     "revision": "58b250a293ebd77bd8ddf1bf3d039726",
@@ -50,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7bfe14e395b9f2e7f5030dae25f3bf5d",
     "url": "/agency-page/static/media/Pollak-4.7bfe14e3.jpg"
+  },
+  {
+    "revision": "ba95810b56f476990ca71d15139d5111",
+    "url": "/agency-page/static/media/Poppins-Medium.ba95810b.ttf"
+  },
+  {
+    "revision": "41e8dead03fb979ecc23b8dfb0fef627",
+    "url": "/agency-page/static/media/Poppins-Regular.41e8dead.ttf"
   },
   {
     "revision": "74133fc25c8dd6bc867d1b30d86c756a",

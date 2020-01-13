@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/agency-page/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/agency-page/static/js/main.61cf1015.chunk.js",
-    "main.js.map": "/agency-page/static/js/main.61cf1015.chunk.js.map",
+    "main.css": "/agency-page/static/css/main.eca160ba.chunk.css",
+    "main.js": "/agency-page/static/js/main.59ea2bb2.chunk.js",
+    "main.js.map": "/agency-page/static/js/main.59ea2bb2.chunk.js.map",
     "runtime-main.js": "/agency-page/static/js/runtime-main.29899bc1.js",
     "runtime-main.js.map": "/agency-page/static/js/runtime-main.29899bc1.js.map",
-    "static/js/2.3f379b02.chunk.js": "/agency-page/static/js/2.3f379b02.chunk.js",
-    "static/js/2.3f379b02.chunk.js.map": "/agency-page/static/js/2.3f379b02.chunk.js.map",
+    "static/js/2.b419ed65.chunk.js": "/agency-page/static/js/2.b419ed65.chunk.js",
+    "static/js/2.b419ed65.chunk.js.map": "/agency-page/static/js/2.b419ed65.chunk.js.map",
     "index.html": "/agency-page/index.html",
-    "precache-manifest.ea8675553d02b34fd9d76ebf12b5f62a.js": "/agency-page/precache-manifest.ea8675553d02b34fd9d76ebf12b5f62a.js",
+    "precache-manifest.602c1f640b9d211dc18fdeab60a81968.js": "/agency-page/precache-manifest.602c1f640b9d211dc18fdeab60a81968.js",
     "service-worker.js": "/agency-page/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/agency-page/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3f379b02.chunk.js.LICENSE": "/agency-page/static/js/2.3f379b02.chunk.js.LICENSE",
+    "static/css/main.eca160ba.chunk.css.map": "/agency-page/static/css/main.eca160ba.chunk.css.map",
+    "static/js/2.b419ed65.chunk.js.LICENSE": "/agency-page/static/js/2.b419ed65.chunk.js.LICENSE",
     "static/media/Crawley.png": "/agency-page/static/media/Crawley.ee383d81.png",
+    "static/media/font.css": "/agency-page/static/media/Poppins-Regular.41e8dead.ttf",
     "static/media/Mills.png": "/agency-page/static/media/Mills.58b250a2.png",
     "static/media/Moffitt.png": "/agency-page/static/media/Moffitt.72f2324f.png",
     "static/media/Pollak-1.jpg": "/agency-page/static/media/Pollak-1.56032d7c.jpg",
@@ -47,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.29899bc1.js",
-    "static/js/2.3f379b02.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.61cf1015.chunk.js"
+    "static/js/2.b419ed65.chunk.js",
+    "static/css/main.eca160ba.chunk.css",
+    "static/js/main.59ea2bb2.chunk.js"
   ]
 }
